@@ -10,9 +10,9 @@
             </div>
         </div>
         <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-            <div class="col-lg-6">
+            <div [ngClass]="isActive ? 'fade-1':'fade-2'" (scroll-in)="activate()" (scroll-out)="deactivate()" class="col-lg-6">
              
-                <div class="container">
+                <div  class="container">
                     <i class="bi bi-envelope fs-1 icono-color"></i><a href="mailto:josepereza66@gmail.com"><span style="font-size: 1.5em;"> Jose Perez</span></a> 
                    <br> <i class="bi bi-facebook fs-1 icono-color"></i><a href="https://www.facebook.com/jose.perezasensio/"><span style="font-size: 1.5em;"> Jose Perez</span></a>
                    <br> <i class="bi bi-linkedin fs-1 icono-color"></i><a href="https://www.linkedin.com/in/jose-perez-asensio-168198231/"><span style="font-size: 1.5em;"> Jose Perez</span></a>

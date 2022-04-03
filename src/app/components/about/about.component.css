@@ -4,3 +4,23 @@
 img{
     border-radius: 50%;
 }
+
+.izq-dcha-1{
+   
+    transform: translate(-20px);
+    transition-delay: 200ms;
+    transition-duration: 1s;
+  }
+  .izq-dcha-2{
+     
+    transform: translate(-880px);
+  }
+.fade-1{
+  opacity: 1;
+  transition-delay: 300ms;
+  transition-duration: 2s;
+}
+.fade-2{
+  opacity:0;
+  
+}

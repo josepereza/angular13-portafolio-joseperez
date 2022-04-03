@@ -5,3 +5,13 @@
 a{
     text-decoration: none;
 }
+
+.fade-1{
+    opacity: 1;
+    transition-delay: 300ms;
+    transition-duration: 2s;
+  }
+  .fade-2{
+    opacity:0;
+    
+  }

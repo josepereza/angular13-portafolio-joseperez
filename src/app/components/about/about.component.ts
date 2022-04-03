@@ -11,5 +11,12 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  isActive:boolean=false;
+  activate(){
+    console.log('activate')
+    this.isActive=true
+}
+deactivate(){
+  this.isActive=false
+}
 }

@@ -9,6 +9,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {Ng2EventsModule} from "ng2-events";
 
 @NgModule({
   declarations: [
@@ -19,11 +21,15 @@ import { ContactComponent } from './components/contact/contact.component';
     ServicesComponent,
     FooterComponent,
     PortafolioComponent,
-    ContactComponent
+    ContactComponent,
+    
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    BrowserAnimationsModule,
+    Ng2EventsModule
   ],
+  exports: [Ng2EventsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
