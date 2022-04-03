@@ -1,6 +1,11 @@
 # Joseperez
 ### iconos informatica
 * https://www.flaticon.es/
+### eventos al hacer scroll
+https://www.npmjs.com/package/ng2-events
+### animations
+* https://www.npmjs.com/package/ng-animate
+* https://github.com/jiayihu/ng-animate
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
