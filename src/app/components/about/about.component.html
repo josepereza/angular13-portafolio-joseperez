@@ -1,18 +1,18 @@
-<section class="page-section color-about p-5"  id="about">
+<section class="page-section color-about p-4"  id="about">
     <br><br><br>
-    <div class="container px-1 px-lg-5">
+    <div class="container  px-lg-5">
         <div class="row gx-4 gx-lg-5 d-flex align-items-center justify-content-center">
             <div [ngClass]="isActive ? 'izq-dcha-1':'izq-dcha-2'" (scroll-in)="activate()" class="col-lg-4 text-center ">
                 <img  src="../../../assets/images/joseperez.jpg" width="80%" alt="">
             </div>
-            <div    class="col-lg-8 ">
-                <h2  [ngClass]="isActive ? 'izq-dcha-1':'izq-dcha-2'" (scroll-in)="activate()" (scroll-out)="deactivate()" class="text-white mt-0">Hi,I'm Jose, A full stack web developer</h2>
+            <div  [ngClass]="isActive ? 'izq-dcha-1':'izq-dcha-2'" (scroll-in)="activate()" (scroll-out)="deactivate()"   class="col-lg-8 ">
+                <h2  class="text-white mt-0">Hi,I'm Jose, A full stack web developer</h2>
                 <hr class="divider divider-light" />
                 <ul  [ngClass]="isActive ? 'fade-1':'fade-2'" (scroll-in)="activate()" (scroll-out)="deactivate()" class="text-white fs-4">
                     <li>
                         Passion for great design, user experience and site usability
                     </li>
-                    <li>Demonstrated professional experience in all major UX disciplines – information architecture, user interface design and content strategy across a variety of environments – web applications, websites and mobile</li>
+                    <li>Experience in all major UX disciplines – information architecture, user interface design and content strategy across a variety of environments – web applications, websites and mobile</li>
                 <li>
                     Demonstrated professional experience in front-end and back-end development
                 </li>
@@ -20,8 +20,10 @@
                     Expert knowledge of Mysql, HTML5/DOM, CSS3,  Angular, Node Js and responsive web frameworks
                 </li>
                 </ul>
+                
                 <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
             </div>
         </div>
     </div>
+   
 </section>
