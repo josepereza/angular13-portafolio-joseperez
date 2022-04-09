@@ -7,7 +7,7 @@
     background-position: center center;
     background-size: cover;
     position: relative;
-
+    z-index: 1000;
     animation: cabezera 20s 4s infinite;
 }
 
@@ -20,7 +20,7 @@
         url("../../../assets/images/woman.jpg"), linear-gradient(#110f11, #915e5c);
     background-position: center center;
     background-size: cover;
-    z-index: -1000;
+
 
     position: absolute;
 }
@@ -41,7 +41,7 @@
     }
 
     50% {
-        left:-100%;
+        left: -100%;
     }
 
     75% {
@@ -74,3 +74,9 @@
 .color-boton {
     background-color: rgb(28, 185, 54);
 }
+
+@media screen and (max-width: 530px) {
+   .slogan,.slogan2 {
+       margin-top: 70px;
+   }
+  }
