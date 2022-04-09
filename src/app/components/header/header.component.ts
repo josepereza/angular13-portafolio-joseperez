@@ -7,11 +7,13 @@ import { zoomIn } from 'ng-animate';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
   animations: [
-    trigger('zoom', [transition('* => *', useAnimation(zoomIn))])
+    trigger('zoom', [transition('* => *', useAnimation(zoomIn, {
+      // Set the duration to 5seconds and delay to 2seconds
+      params: { timing: 5 }}))])
   ],
 })
 export class HeaderComponent implements OnInit {
-
+ 
   constructor() { }
 
   ngOnInit(): void {
