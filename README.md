@@ -2,7 +2,9 @@
 ### iconos informatica
 * https://www.flaticon.es/
 ### eventos al hacer scroll
-https://www.npmjs.com/package/ng2-events
+* https://www.npmjs.com/package/ng2-events
+* https://www.npmjs.com/package/ngx-hide-on-scroll (opcional)
+
 ### animations
 * https://www.npmjs.com/package/ng-animate
 * https://github.com/jiayihu/ng-animate
