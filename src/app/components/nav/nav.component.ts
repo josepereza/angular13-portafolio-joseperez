@@ -1,4 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Inject} from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -6,15 +8,15 @@ import { Component, HostListener, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  @HostListener('window:scroll', ['$event'])
+  @HostListener('document:scroll', ['$event'])
   onScroll(event:any) {
     this.isActive=true;
-      if (window.pageYOffset==0){
+      if (this.document.documentElement.scrollTop==0){
         this.isActive=false
       }
   }
 isActive:boolean=false;
-  constructor() { }
+  constructor(@Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit(): void {
   }
