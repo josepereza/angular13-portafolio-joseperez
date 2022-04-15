@@ -1,14 +1,23 @@
-<section >
+<section>
     <br><br><br>
     <div class="container-fluid p-0">
         <h2 class="text-center mt-0">Portafolio</h2>
         <hr class="divider" />
-        <div  [ngClass]="isActive ? 'fade-1':'fade-2'" (scroll-in)="activate()" (scroll-out)="deactivate()" class="row g-0">
+        <div [ngClass]="isActive ? 'fade-1':'fade-2'" (scroll-in)="activate()" (scroll-out)="deactivate()"
+            class="row g-0">
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="https://bigdata-resource.netlify.app/" title="Project Name">
+                    <img class="img-fluid" src="../../../assets/images/big-data.png" alt="..." />
+                    <div class="portfolio-box-caption">
+                        <div class="project-name">Slideshow Project</div>
+                    </div>
+                </a>
+            </div>
             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box" href="https://cloud-bigdata.netlify.app/" title="Project Name">
                     <img class="img-fluid" src="../../../assets/images/cloud.png" alt="..." />
                     <div class="portfolio-box-caption">
-                        <div class="project-name">Parallax-web Project</div>
+                        <div class="project-name">Auto slideshow Project</div>
                     </div>
                 </a>
             </div>
