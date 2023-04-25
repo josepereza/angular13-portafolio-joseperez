@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./services.component.css']
 })
 export class ServicesComponent implements OnInit {
-
+ 
+   
   constructor() { }
 
   ngOnInit(): void {
@@ -19,4 +20,5 @@ export class ServicesComponent implements OnInit {
 deactivate(){
   this.isActive=false
 }
+
 }

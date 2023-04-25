@@ -11,6 +11,7 @@ import { PortafolioComponent } from './components/portafolio/portafolio.componen
 import { ContactComponent } from './components/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {Ng2EventsModule} from "ng2-events";
+import { TechnologiesComponent } from './components/technologies/technologies.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {Ng2EventsModule} from "ng2-events";
     FooterComponent,
     PortafolioComponent,
     ContactComponent,
+    TechnologiesComponent,
     
   ],
   imports: [

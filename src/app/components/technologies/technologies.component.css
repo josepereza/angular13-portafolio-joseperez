@@ -1,0 +1,29 @@
+.grid{
+    
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    grid-gap: 10px;
+}
+img{
+   
+   
+
+   
+}
+.imagen{
+  
+  text-align: center;  
+  margin: auto;
+}
+
+.fade-1{
+    opacity: 1;
+    transition-delay: 300ms;
+    transition-duration: 2s;
+  }
+  .fade-2{
+    opacity:0;
+    
+  }
